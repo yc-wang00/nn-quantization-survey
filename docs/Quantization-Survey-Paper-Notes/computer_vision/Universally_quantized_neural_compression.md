@@ -1,0 +1,28 @@
+# Universally quantized neural compression
+
+## Summary
+
+Summary: The paper discusses using a uniform noise channel for both training and testing phases of a lossy compression model. It explains how this approach is more efficient and easier to implement than other methods, and demonstrates how quantization can be obtained through a soft quantizer applied to the uniform noise channel.
+
+
+## Target Task
+
+computer vision
+
+## Content
+
+<Abstract: >
+A popular approach to learning encoders for lossy compression is to use additive
+uniform noise during training as a differentiable approximation to test-time quantization. We demonstrate that a uniform noise channel can also be implemented
+at test time using universal quantization (Ziv, 1985). This allows us to eliminate
+the mismatch between training and test phases while maintaining a completely
+differentiable loss function. Implementing the uniform noise channel is a special
+case of the more general problem of communicating a sample, which we prove is
+computationally hard if we do not make assumptions about its distribution. However, the uniform special case is efficient as well as easy to implement and thus of great interest from a practical point of view. Finally, we show that quantization
+can be obtained as a limiting case of a soft quantizer applied to the uniform noise
+channel, bridging compression with and without quantization.
+
+
+
+---
+

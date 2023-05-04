@@ -1,0 +1,19 @@
+# Hero: Hessian-enhanced robust optimization for unifying and improving generalization and quantization performance
+
+## Summary
+
+Summary: The paper proposes a Hessian-enhanced robust optimization method called HERO to improve the generalization and quantization performance of neural network models for efficient deployment on mobile and edge devices. This is achieved by simultaneously minimizing Hessian eigenvalues and enhancing the model's robustness against bounded weight perturbation. The method shows significant improvements in test accuracy, training label perturbation, and post-training quantization accuracy for common model architectures on various datasets.
+
+
+## Target Task
+
+computer vision
+
+## Content
+
+<Abstract: >With the recent demand of deploying neural network models on mobile and edge devices, it is desired to improve the model’s generalizability on unseen testing data, as well as enhance the model’s robustness under fixed-point quantization for efficient deployment. Minimizing the training loss, however, provides few guarantees on the generalization and quantization performance. In this work, we fulfill the need of improving generalization and quantization performance simultaneously by theoretically unifying them under the framework of improving the model’s robustness against bounded weight perturbation and minimizing the eigenvalues of the Hessian matrix with respect to model weights. We therefore propose HERO, a Hessian-enhanced robust optimization method, to minimize the Hessian eigenvalues through a gradient-based training process, simultaneously improving the generalization and quantization performance. HERO enables up to a 3.8% gain on test accuracy, up to 30% higher accuracy under 80% training label perturbation, and the best post-training quantization accuracy across a wide range of precision, including a >10% accuracy improvement over SGD-trained models for common model architectures on various datasets.
+
+
+
+---
+

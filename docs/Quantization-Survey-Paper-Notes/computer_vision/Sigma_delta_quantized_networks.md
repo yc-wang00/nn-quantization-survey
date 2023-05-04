@@ -1,0 +1,19 @@
+# Sigma delta quantized networks
+
+## Summary
+
+<Summary: > The paper introduces Sigma-Delta networks as a solution to the fixed computation waste in video processing by sending only discretized changes in activation from one layer to the next. An optimization approach is presented to convert pre-trained deep networks into Sigma-Delta networks for optimal efficiency, reducing computational costs by an order of magnitude when processing video data.
+
+
+## Target Task
+
+computer vision
+
+## Content
+
+<Abstract: >Deep neural networks can be obscenely wasteful. When processing video, a convolutional network expends a fixed amount of computation for each frame with no regard to the similarity between neighbouring frames. To put an end to such waste, we introduce Sigma- Delta networks. With each new input, each layer in this network sends a discretized form of its change in activation to the next layer. Thus the amount of computation that the network does scales with the amount of change in the input and layer activations, rather than the size of the network. We introduce an optimization method for converting any pre-trained deep network into an optimally efficient Sigma-Delta network, and show that our algorithm, if run on the appropriate hardware, could cut at least an order of magnitude from the computational cost of processing video data.
+
+
+
+---
+

@@ -1,0 +1,19 @@
+# Avoiding inference heuristics in few-shot prompt-based finetuning
+
+## Summary
+
+Summary: The paper discusses the issue of prompt-based models in sentence pair classification tasks that adopt inference heuristics based on lexical overlap, which causes incorrect assumptions of sentence meaning in low data regimes. The paper suggests that this issue can be mitigated by adding regularization that preserves pre-training weights. The evaluation on three datasets shows promising improvements in mitigating the destructive tendency of few-shot finetuning.
+
+
+## Target Task
+
+nlp
+
+## Content
+
+<Abstract: Recent prompt-based approaches allow pretrained language models to achieve strong performances on few-shot finetuning by reformulating downstream tasks as a language modeling problem. In this work, we demonstrate that, despite its advantages on low data regimes, finetuned prompt-based models for sentence pair classification tasks still suffer from a common pitfall of adopting inference heuristics based on lexical overlap, e.g., models incorrectly assuming a sentence pair is of the same meaning because they consist of the same set of words. Interestingly, we find that this particular inference heuristic is significantly less present in the zero-shot evaluation of the prompt-based model, indicating how finetuning can be destructive to useful knowledge learned during the pretraining. We then show that adding a regularization that preserves pre-training weights is effective in mitigating this destructive tendency of few-shot finetuning. Our evaluation on three datasets demonstrates promising improvements on the three corresponding challenge datasets used to diagnose the inference heuristics.>
+
+
+
+---
+

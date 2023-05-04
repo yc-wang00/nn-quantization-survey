@@ -1,0 +1,20 @@
+# Sampling-free learning of Bayesian quantized neural networks
+
+## Summary
+
+Summary: The paper proposes Bayesian Quantized Networks (BQNs) which are quantized neural networks with a posterior distribution over their discrete parameters. Algorithms for efficient learning and prediction in BQNs are provided which allows for differentiable learning in QNNs and reduces the variance in gradients. Evaluation on image classification datasets shows that BQNs achieve lower predictive errors and better-calibrated uncertainties compared to ensemble of QNNs.
+
+
+## Target Task
+
+computer vision
+
+## Content
+
+<Abstract:>
+Bayesian learning of model parameters in neural networks is important in scenarios where estimates with well-calibrated uncertainty are important. In this paper, we propose Bayesian quantized networks (BQNs), quantized neural networks (QNNs) for which we learn a posterior distribution over their discrete parameters. We provide a set of efficient algorithms for learning and prediction in BQNs without the need to sample from their parameters or activations, which not only allows for differentiable learning in QNNs, but also reduces the variance in gradients. We evaluate BQNs on MNIST, Fashion-MNIST, KMNIST and CIFAR10 image classification datasets. compared against bootstrap ensemble of QNNs (E-QNN). We demonstrate BQNs achieve both lower predictive errors and better-calibrated uncertainties than E-QNN (with less than 20% of the negative log-likelihood).
+
+
+
+---
+
